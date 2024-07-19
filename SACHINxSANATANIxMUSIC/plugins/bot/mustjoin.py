@@ -6,7 +6,7 @@ from SACHINxSANATANIxMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "CODEX_KA_BAAP_4ST"
+MUST_JOIN = "shayari_dp_channel"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
